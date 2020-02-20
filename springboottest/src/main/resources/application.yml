@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/library?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    # 打印sql
+    show-sql: true
+    properties:
+      hibernate:
+        # 格式化sql
+        format_sql: true
+server:
+  port: 8181
